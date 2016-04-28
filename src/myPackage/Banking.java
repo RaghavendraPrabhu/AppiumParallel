@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 public class Banking extends BaseTest {
 
 	//This is testing application for git
+	//This is testing application for git
 	
 	@Test(priority = 1)
 	@Parameters({"deviceName"})
