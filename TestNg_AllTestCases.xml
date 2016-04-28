@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="tests">
+	<test name="Regression 1 Motorola">
+		<parameter name="deviceName" value="motorola-xt1022-ZX1B3233FJ"></parameter>
+		<classes>
+			<class name="myPackage.Banking" />
+		</classes>
+	</test>
+	<test name="Regression 2 Holly Honor ">
+		<parameter name="deviceName" value="huawei-chm_u01-4C2YVP157X011379"></parameter>
+		<classes>
+			<class name="myPackage.Banking" />
+		</classes>
+	</test>
+</suite>
